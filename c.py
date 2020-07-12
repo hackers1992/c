@@ -97,7 +97,6 @@ def method_menu():
 		hopa = open('login.txt','w')
 		hopa.write(hosp)
 		hopa.close()
-		print "\n[✓] Logged In Successfully."
 		time.sleep(1)
 		menu()
 		
